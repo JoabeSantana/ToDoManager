@@ -5,7 +5,7 @@ const urlLogin = barra.concat('login');
 const urlTasksParam = urlTasks.concat(barra).concat(':idDaQuestao04');
 const msgTaskNaoLocalizada = 'Task não localizada';
 const msgTokenInvalido = 'Token inválido';
-const msgUsuarioInvalido = 'Token inválido';
+const msgUsuarioInvalido = 'Error in username or password';
 
 module.exports = {
 	porta,
